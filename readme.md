@@ -7,7 +7,7 @@ Blab-a-Gag is a fairly simple forum type application which allows:
  - users to follow the jokes of other users or not (listen or ignore)
  - users to comment on other users messages (heckle)
  
-### URLs
+## URLs
 
 `/reset` will reset the data in the database with a load of:
  - users
@@ -57,7 +57,7 @@ Login with a username/password as defined in `Utils.java`
 
 Verademo will also run out-of-the-box in AWS. Simply upload the `target/verademo.war` file into a Tomcat Elastic Beanstalk environment (with associated Amazon RDS). The database credentials listed above are not required when running in AWS.
 
-On the first environment deployment, a script will automatically setup the database. Subsequent application re-deploys (without environment re-deploy), or application server restarts will not alter the database.
+On the 1st environment deployment, a script will automatically setup the database. Subsequent application re-deploys (without environment re-deploy), or application server restarts will not alter the database.
 
 ## Exploitation Demos
 
